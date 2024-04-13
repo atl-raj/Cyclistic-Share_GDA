@@ -27,7 +27,23 @@ As a junior data analyst on the marketing team, I am tasked with analyzing user 
 * SQL (data manipulation)
 * Provided bike-sharing data set
 
-Document Structure:
+### Document Structure:
+* ride_id - primary
+* rideable_type - classic/electric/docked bike
+* start_station_id - unique ID for start locations
+* start_station_name 
+* started_at - date & time at which the ride started
+* start_lat
+* start_lng
+* end_station_id - unique ID for start locations
+* end_station_name
+* ended_at - date & time at which the ride started
+* ending_lat
+* ending_lng
+* member_casual
+
+### Calculated columns: 
+* trip_duration - calculated using the difference from started and ending time
 
 This document can be further developed to include the following sections:
 

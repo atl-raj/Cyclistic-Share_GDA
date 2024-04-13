@@ -1,1 +1,0 @@
-# Cyclistic-Share_GDA

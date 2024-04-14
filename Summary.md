@@ -45,13 +45,30 @@ As a junior data analyst on the marketing team, I am tasked with analyzing user 
 ### Calculated columns: 
 * trip_duration - calculated using the difference from started and ending time
 
-This document can be further developed to include the following sections:
+### Data Cleaning
+This project investigated user behavior within the Cyclistic bike-share system.  We employed SQL for data manipulation and retrieval. Individual data files were combined to create a comprehensive dataset encompassing all rides. Data quality checks were implemented to ensure data integrity. Records lacking start or end station identifiers were excluded from the analysis. Additionally, trips with durations less than one minute or exceeding one day were removed as outliers potentially indicating data recording errors.
 
-Introduction: Briefly introduce Cyclistic, the case study scenario, and your role as a data analyst.
-Data Exploration: Describe the provided data set, including its format, variables, and initial observations.
-Data Cleaning & Preparation: Outline the steps taken to clean and prepare the data for analysis (handling missing values, formatting data types, etc.)
-Data Analysis: Present your analysis of the data, focusing on identifying key trends and differences between casual riders and annual members.
-Consider factors like trip frequency, trip duration, day of the week, time of day, etc.
-Utilize data visualizations to effectively showcase your findings.
-Recommendations: Based on your analysis, propose specific marketing strategies to attract and convert casual riders into annual members.
-Conclusion: Summarize your key findings and reiterate the potential impact of your recommendations.
+### Visualization 
+Following data cleaning, Tableau, a data visualization platform, was utilized to create interactive visualizations that facilitated the exploration of user patterns. These visualizations provided insights into ridership trends, user demographics (if available in the dataset), and potential areas for system optimization.
+
+[Tableau Viz](https://public.tableau.com/app/profile/atul.raj4327/viz/CyclisticBikeShare_17124258012150/Dashboard2)
+
+### Analysis
+Analyzing ridership data for Cyclistic's bike-sharing program revealed interesting patterns. 
+* Unsurprisingly, sunny summers saw the most cyclists, with usage dropping during colder months.
+* Interestingly, a clear distinction emerged between subscription members and casual riders. Subscription members, likely regular commuters, dominated weekday ridership, with trip peaks coinciding with morning and evening commutes. Casual riders, on the other hand, seemed to favor weekends, suggesting a more recreational use of the service.
+*One surprising finding was the overwhelming preference for classic bicycles over electric options. While this highlights the popularity of cycling for exercise and leisure, it also presents an opportunity. By offering targeted campaigns showcasing the benefits of electric bikes, such as reducing commute times or tackling steeper inclines, Cyclistic could potentially convert casual riders into more frequent cyclists and expand their customer base.
+
+### Solution
+Based on the analysis of Cyclistic's bike-share data, here are several solutions to consider:
+
+* **Targeted Marketing**:
+  *Implement weekend promotions to attract casual riders who peak during this time.
+  *Develop campaigns specifically showcasing the benefits of electric bikes to convert casual riders into more frequent cyclists (e.g., reduce commute times, tackle hills).
+
+* **Incentivize Weekday Usage**:
+  *Analyze commute patterns and consider offering incentives (discounts, rewards) during peak commute hours to encourage subscription member ridership throughout the week.
+
+* **Improve Data Collection**:
+  *Investigate reasons behind the lack of electric bike usage. User surveys or focus groups could provide valuable insights.
+  *This data-driven approach can help Cyclistic optimize their bike-share system, increase ridership, and potentially boost revenue.

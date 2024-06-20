@@ -35,9 +35,9 @@ As a junior data analyst on the marketing team, I am tasked with analyzing user 
 * started_at - date & time at which the ride started
 * start_lat
 * start_lng
-* end_station_id - unique ID for start locations
+* end_station_id - unique ID for end locations
 * end_station_name
-* ended_at - date & time at which the ride started
+* ended_at - date & time at which the ride ended
 * ending_lat
 * ending_lng
 * member_casual
